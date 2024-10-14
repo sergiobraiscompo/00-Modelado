@@ -19,16 +19,19 @@ Contendrá a los cursos hijos
 - Cursos
 ---
 
-## Cursos
+## Curso
 Almacenarán a la temática madre y a las lecciones hijas para que así el usuario pueda ver todo de un vistazo.
-En las horas de menos actividad 
+
+Se usará el computed pattern para _contabilziar_ las visualizaciones de los videos del curso
+
+Cada dia de madrugada se lanzará un script que recoge las visualizaciones de todos los videos del curso.
 - temática
 - lecciones
 - visualizaciones
 ---
 
 ## Lecciones
-Almacenaran los dos niveles anteriores para así facilitar la navegación por los contenidos
+Almacenarán los dos niveles anteriores para así facilitar la navegación por los contenidos
 
 ### Campos nuevos
 Almacena las suscripciones a las que está vinculada
